@@ -1,0 +1,41 @@
+.App {
+  margin: 1em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+ }
+
+ code {
+  padding: 0px;
+  margin:.2em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+ }
+ 
+ ul {
+   list-style: none;
+   padding-left: 0;
+ }
+ 
+ li {
+   padding: 5px;
+   margin: 2px;
+   width: 20em;
+   background-color: #EEE;
+ }
+ 
+ li a {
+   color: grey;
+ }
+ 
+ li:hover{
+   background-color: darkolivegreen;
+   color: white;
+ }
+ 
+ li:hover a {
+   color: white;
+ }
+ 
+ .counter span {
+  float: left;
+  width: 2em;
+}

@@ -1,5 +1,5 @@
 .App {
-  margin: 1em;
+  margin: .2em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
  }
 
@@ -17,8 +17,8 @@
  
  li {
    padding: 5px;
-   margin: 2px;
-   width: 20em;
+   margin: 4px;
+   width: 18em;
    background-color: #EEE;
  }
  

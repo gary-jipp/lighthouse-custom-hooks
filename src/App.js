@@ -1,7 +1,7 @@
 import 'App.css';
 
 export default function App() {
-useState
+
   return (
     <div className="App">
       <h2>

@@ -1,6 +1,7 @@
 ## Custom Hooks
 
 ## Topics
+- [ ] React Hooks
 - [ ] What are Custom Hooks
 - [ ] Why Custom Hooks are useful
 - [ ] What makes Custom Hooks special
@@ -9,8 +10,3 @@
 - [ ] Custom Hook Examples
 
 ## Notes
-
-
-
-
- 

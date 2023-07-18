@@ -9,3 +9,11 @@
 - [ ] Custom Hook Examples
 
 ## Notes
+
+React Hook - react function (hook)
+- must be called in the same order
+- only be used from within components or custom hooks
+
+const user = getUserByEmail(email);
+
+Custom Hooks are just helper functions... that do React Stuff

@@ -10,10 +10,20 @@
 
 ## Notes
 
-React Hook - react function (hook)
-- must be called in the same order
-- only be used from within components or custom hooks
+* Building your own Hooks lets you extract component logic into reusable functions.
 
-const user = getUserByEmail(email);
+* Custom hooks let us move repetitive or complex code out of our components
 
-Custom Hooks are just helper functions... that do React Stuff
+* Pulls "logic" out of your component not "visuals"
+
+* You can think of Custom hooks as "helper functions" for React
+
+* Custom hooks usually use other React hooks (useState, useEffect, etc)
+
+* Normal helper functions cannot use Hooks. Only Custom Hooks can do that
+
+* React Rule: React Hooks must start with the prefix "use"
+
+* Multiple instances of the same custom hook do not share state
+
+* A Custom Hook can return anything you want (value, array, object, function)

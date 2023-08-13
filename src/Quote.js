@@ -1,7 +1,8 @@
 import useAxios from 'hooks/useAxios';
 
 const Quote = function(props) {
-  const {body, pending, error} = useAxios("https://api.kanye.rest");
+  const {body, pending, error} = useAxios("https://api.office.rest");
+  // const {body, pending, error} = useAxios("https://api.kanye.rest");
 
   return (
     <li>

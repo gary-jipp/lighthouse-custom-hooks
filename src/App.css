@@ -1,5 +1,5 @@
 .App {
-  margin: 1em;
+  margin: .2em;
   text-align: center;
 }
 
@@ -11,7 +11,7 @@ ul {
   list-style: none;
   padding-left: 0;
   margin: auto;
-  width: 20em;
+  width: 21em;
 }
 
 li {
@@ -25,16 +25,20 @@ li a {
   color: grey;
 }
 
-li:hover {
+/* li:hover {
   background-color: darkolivegreen;
   color: white;
 }
 
 li:hover a {
   color: white;
-}
+} */
 
 span {
+  color: red;
+}
+
+li div {
   color: red;
 }
 

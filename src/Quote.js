@@ -18,7 +18,7 @@ const Quote = function(props) {
       {text}
       {show && <div>{character}</div>}
 
-      {!show && text && <button onClick={() => setShow(true)}>who said that?</button>}
+      {!show && text && <button onClick={() => setShow(true)}>who said that</button>}
     </li>
   );
 

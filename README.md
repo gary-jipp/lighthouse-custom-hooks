@@ -9,9 +9,8 @@
 - [ ] Return value from a Custom Hook
 - [ ] Custom Hook Examples
 
-## Notes
 
-React Hooks Rules
+### React Hooks Rules
  - hooks must be called in the same order
  - they can only be used inside Components (or other hooks)
  - start with `use`
@@ -19,14 +18,17 @@ React Hooks Rules
  Custom Hooks are helper functions for React
   - they can call other hooks
 
-What is a Component
- -  function returns JSX
-What is a Render?
- - run the function (component)
-What causes a Render?
-- change in state
-- stale state
+### What is a Component
+ function returns JSX
 
+### What is a Render?
+ run the function (component)
+
+### What causes a Render?
+change in state
+
+
+## Notes
 
 * Building your own Hooks lets you extract component logic into reusable functions.
 

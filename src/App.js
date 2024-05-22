@@ -1,10 +1,11 @@
+import {useEffect, useState} from 'react';
+
 import 'App.css';
 import useCounter from 'hooks/useCounter';
 import useInput from 'hooks/useInput';
 import usePosition from 'hooks/usePosition';
-import {useEffect, useImperativeHandle, useState} from 'react';
-import useFetch from 'useFetch';
-import useLocation from 'useLocation';
+import useFetch from 'hooks/useFetch';
+import useLocation from 'hooks/useLocation';
 
 export default function App() {
   const text = useInput("");
@@ -30,7 +31,6 @@ export default function App() {
     <div className="App">
 
       <h2>Custom Hooks</h2>
-
 
       <div>
         <div>

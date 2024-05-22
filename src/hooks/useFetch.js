@@ -11,6 +11,8 @@ const useFetch = function(url) {
       return;
     }
 
+    setBody(null);
+    setError(null);
     setPending(true);
 
     fetch(url)
